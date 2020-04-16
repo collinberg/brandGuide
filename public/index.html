@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
   <link rel="stylesheet" href="https://use.typekit.net/pjh5tdq.css">
   <link rel="stylesheet" href="/build/tailwind.css">
 
@@ -26,19 +26,20 @@
             <a href='#colors' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Color</a>
             <a href='#type' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Typography</a>
             <a href='#icons' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Icons</a>
+            <a href='#email' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Email</a>
           </nav>
         </div>
         <div>
           <h4 class='uppercase font-bold text-sm'>Website</h4>
           <nav class='flex flex-col flex-wrap ml-1'>
-            <a href='#logo' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Typography</a>
-            <a href='#colors' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Components</a>
-            <a href='#type' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Imagry</a>
+            <a href='/website.html#type' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Typography</a>
+            <a href='/website.html#mods' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Components</a>
+            <a href='/website.html#images' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Imagry</a>
           </nav>
         </div>
       </div>
     </aside>
-    <main class='relative md:ml-64 text-gray-700'>
+    <main class='relative md:ml-64 text-gray-900'>
       <section class='flex flex-col flex-wrap min-h-screen w-full bg-white p-5 lg:p-10'>
         <div class="flex-grow">
           <h2 class='inline-block border-t-4 border-primary pt-1 font-bold text-lg text-black'>hello, we're sji.</h2>
@@ -56,7 +57,7 @@
         <p>We are very proud of our logo, and we require that you follow these guidelines to ensure it always looks its best. Our logo is the combination of a ########</p>
         <div class='flex flex-wrap flex-col my-10'>
           <div class='w-full bg-white py-5 flex justify-center'>
-            <img src="../SJI_logo_type_tagline.svg" width="500">
+            <img src="../img/SJI_logo_type_tagline.svg" width="500">
           </div>
           <h3 class='mt-5 text-3xl'>Usage</h3>
           <p>This rounded SJI Logo was developed and realeased in late 2019 as part of the SJI rebranding strategory. During this processes the tagline was also updated to <strong>strategic creative</strong>. </p>
@@ -114,14 +115,33 @@
         <div class='pb-1 mb-5 border-primary'>
           <h2 class='text-4xl'>Color</h2>
           <p class=''>Below are the main colors that make up the SJI Brand, and a breakdown of when to use them.</p>
+          <h3 class='mt-5 text-3xl'>Logo Colors</h3>
         </div>
         <div class='flex flex-wrap lg:flex-row'>
           <div class='flex flex-wrap flex-col w-1/3 px-3 mb-24'>
-            <div class='bg-primary rounded-full w-32 h-32 mb-3'></div>
+            <div class='bg-primary w-full h-32 mb-3'></div>
             <span class='uppercase font-bold block'>Brand Primary</span>
             <p class='uppercase'>HEX: #ec6433</p>
             <p>RGB: 236, 100, 51</p>
+            <p>CMYK: C0% M53% Y73% K7%</p>
           </div>
+          <div class="flex flex-wrap flex-col w-1/3 px-3 mb-24">
+            <div class='bg-black w-full h-32 mb-3'></div>
+            <span class='uppercase font-bold block'>Black</span>
+            <p class='uppercase'>HEX: #000</p>
+            <p>RGB: 0, 0, 0</p>
+            <p>CMYK: C0% M0% Y0% K100%</p>
+          </div>
+          <div class="flex flex-wrap flex-col w-1/3 px-3 mb-24">
+            <div class='bg-white border-2 w-full h-32 mb-3'></div>
+            <span class='uppercase font-bold block'>White</span>
+            <p class='uppercase'>HEX: #FFF</p>
+            <p>RGB: 255, 255, 255</p>
+            <p>CMYK: C0% M0% Y0% K0%</p>
+          </div>
+        </div>
+        <h2 class='text-3xl'>Secondary Colors</h2>
+        <div class='flex flex-wrap lg:flex-row'>
           <div class='flex flex-wrap flex-col w-1/3 px-3 mb-24'>
             <div class='bg-primary-lighter rounded-full w-32 h-32 mb-3'></div>
             <span class='uppercase font-bold block'>Brand Lighter</span>
@@ -152,6 +172,30 @@
             <p class='uppercase'>HEX: #4a5568</p>
             <p>RGB: 74, 85, 104</p>
           </div>
+          <div class="flex flex-wrap flex-col w-1/3 px-3 mb-24">
+            <div class='bg-gray-900 rounded-full w-32 h-32 mb-3'></div>
+            <span class='uppercase font-bold block'>Gray 900</span>
+            <p class='uppercase'>HEX: #333</p>
+            <p>RGB: 51, 51, 51</p>
+          </div>
+        </div>
+        <h3 class='mt-5 text-3xl'>Usage</h3>
+        <div class='flex flex-wrap lg:flex-row'>
+          <div class='md:w-1/2 md:pr-10'>
+            <p class='mb-4'><strong>Gray 900</strong> is the main color for body and all other typograhpy. It should also be used for secondary headings and below unless they are a client name.</p>
+            <p class='mb-4'><strong>Black</strong> is reserved for the SJI tagline when paired wit the logo, and top headlines that have the <span class='text-primary'>Brand Orange</span> line above it.
+            <div class='bg-white rounded border-2 border-gray-300'>
+              <span class='text-xs mb-5 pl-2 pt-2 block font-bold uppercase text-gray-700 '>Example</span>
+
+              <div class="mt-10 pl-5 mb-5 w-full">
+                <h2 class='inline-block border-t-4 border-primary pt-1 font-bold text-lg text-black'>hello, we're sji.</h2>
+              </div>
+            </div>
+          </div>
+          <div class='md:w-1/2 md:pl-10'>
+            <p class='mb-4'><strong>Gray 300, 500, & 900</strong> should be used as secondary colors. <strong>Gray 300</strong> can be used in conjuction with white as alternativing backgrounds such as on this guide.<p>
+            <p><strong>Brand Darker</strong> is used for hover effects on Brand Primary colors</p>
+          </div>
         </div>
       </section>
       <!-- Type -->
@@ -162,20 +206,26 @@
             <p>Fonts/typography, when used consistently, unifies messaging and creates familiarity. The following guidelines will help ensure maximum legibility and reinforcement of the SJI brand.</p>
           </article>
           <article class='w-full flex flex-wrap lg:flex-row'>
-            <div class="w-1/2 pr-10 py-10">
-              <p class='text-3xl font-bold text-black'>Benton Sans</p>
+            <div class="w-full pr-10 py-10">
+              <p class='text-6xl font-bold text-black'>Benton Sans</p>
               <p class='mb-5'>Benton Sans is our primary typeface. Title and sentence case are preferred. Only use all caps in small instances such as client name. The default weight to use is Book | 500.</p>
 
               <p class='mb-5'>Headlines should be bold, all lowercaps, solid black <span>#000</span>.</p>
-            </div>
-            <div class="w-1/2 pl-10 py-10">
-              <p class='text-3xl font-bold text-black'>Open Sans</p>
+              <h3 class='text-3xl mt-10'>Secondary Headline</h3>
+              <p class='mb-5'>Secondary headlines use two colors. The last 2 or three words in the statement are done in the two or three Brand Primary.</p>
+              <div class='bg-white rounded border-2 border-gray-300'>
+                <span class='text-xs mb-5 pl-2 pt-2 block font-bold uppercase text-gray-700 '>Example</span>
+
+                <div class="mt-10 pl-5 mb-5 w-full">
+                  <h2 class='font-bold text-3xl w-1/2'>we transform research and strategic insights <span class='text-primary'>into transformative creative.</span></h2>
+                </div>
+              </div>
             </div>
           </article>
           <article>
-            <h3 class='mt-24 text-3xl'>Type Scale</h3>
+            <h3 class='mt-10 text-3xl'>Type Scale</h3>
             <p>We follow a 6px baseline grid for achieving a vertical rhythm on all block-level elements in the app.</p>
-            <div class='flex flex-wrap m-10'>
+            <div class='flex flex-wrap my-10'>
               <div class='flex w-full py-5 border-t-2 border-gray-500'>
                 <div class="w-1/2">
                   <h2 class='text-2xl uppercase text-primary font-medium'>Client Name</h2>
@@ -198,7 +248,17 @@
                   <p>Benton Sans | 800<p>
                 </div>
               </div>
-
+              <div class='flex w-full py-5 border-t-2 border-gray-500'>
+                <div class="w-1/2">
+                  <h1 class='text-5xl font-bold text-black'>Heading Two</h1>
+                </div>
+                <div class="flex flex-col justify-center text-center w-1/4">
+                  <p>48px |3rem | 5xl</p>
+                </div>
+                <div class="flex flex-col justify-center text-center w-1/4">
+                  <p>Benton Sans | 800<p>
+                </div>
+              </div>
             </div>
             <h3 class='mt-24 text-3xl'>Paragraphs<h3>
             <p>The default body text is 18px and color is #333. For optimum reading length, the paragraph width is capped at 635px.</p>
@@ -301,7 +361,7 @@
                 <h3 class='font-bold text-4xl text-black'>Branding <span class='text-primary'>Diagram.</span></h3>
                 <p class='text-lg'>This Diagram can be found on the <strong>about us</strong> page on the sji website. The diagram details <strong>our approach</strong> as a company.</p>
                 <div>
-                  <button class='bg-primary py-2 px-3 rounded text-white font-bold mt-4'>Download </button>
+                  <button class='bg-primary py-2 px-5 rounded text-white font-bold mt-4 hover:bg-primary-dark duration-500'>Download <i class="fas fa-download"></i></button>
                 </div>
               </div>
             <div class="w-1/2">
@@ -334,6 +394,28 @@
             </div>
           </article>
         </div>
+      </section>
+      <!-- Icons -->
+      <section class='px-10 py-12 bg-gray-300' id='email'>
+        <article>
+          <h2 class='text-4xl'>Email</h2>
+          <p>SJI employee emails should always be signed with the following signature. The signature should include your name, role, and direct link to your desk phone. To get set up, email <a href="mailto:anthony@sjiassociates.com" target="_blank" rel="noopener" class='border-b-2 border-primary leading-none	text-primary font-bold hover:text-primary-dark'>Anthony</a> or <a href="mailto:collin@sjiassociates.com" target="_blank" rel="noopener" class='border-b-2 border-primary leading-none	text-primary font-bold hover:text-primary-dark'>Collin</a>. These Signatures should only ever be used with sjiassociates emails, and not Gmail or alternate email accounts in order to reinforce brand trust.</p>
+          <div class='bg-white rounded border-2 border-gray-300 mt-5'>
+            <span class='text-xs mb-5 pl-2 pt-2 block font-bold uppercase text-gray-700 '>Example</span>
+
+            <div class="mt-10 pl-5 mb-5 w-full">
+              <iframe src="/examples/email.html" width="100%" height="60px"></iframe>
+            </div>
+          </div>
+          <h3 class='text-3xl mt-10'>Summer Email Signature</h3>
+          <div class='bg-white rounded border-2 border-gray-300 mt-2'>
+            <span class='text-xs mb-5 pl-2 pt-2 block font-bold uppercase text-gray-700 '>Example</span>
+
+            <div class="mt-10 pl-5 mb-5 w-full">
+              <iframe src="/examples/summer-email.html" width="100%" height="100px"></iframe>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
   </section>
