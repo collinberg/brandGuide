@@ -5,3 +5,22 @@
 .test{
   display: none;
 }
+.grid-container {
+    @apply relative;
+}
+
+.grid-overlay {
+  @apply absolute bg-primary w-full top-0 bottom-0 text-white flex content-center flex-col justify-center p-4;
+}
+
+.grid-overlay h2 {
+  @apply uppercase mb-2 text-lg leading-none;
+}
+
+.grid-overlay h3 {
+  @apply text-3xl font-bold leading-tight;
+}
+
+.mobile-overlay {
+  background-color: #ec6433cc;
+}
