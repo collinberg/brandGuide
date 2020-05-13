@@ -33,8 +33,7 @@
           <h4 class='uppercase font-bold text-sm'>Website</h4>
           <nav class='flex flex-col flex-wrap ml-1'>
             <a href='#type' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Typography</a>
-            <a href='#colors' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Components</a>
-            <a href='#type' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Imagry</a>
+            <a href='#mods' class='my-1 py-1 px-3 hover:bg-gray-300 rounded hover:text-black duration-500'>Components</a
           </nav>
         </div>
       </div>
@@ -164,7 +163,7 @@
             <h2 class='text-4xl'>Components</h2>
             <p>The SJI Website is made of repeatable modules that assemble into a consistant and orderly web experience.</p>
           </article>
-          <artcile>
+          <artcile class='mt-12'>
             <h3 class='text-3xl mt-10'>Work Tile</h3>
             <p>The Work Tile is used throughout the site as a pathway component to lead to portfolio [work] pages. Tiles consist of these main elements:</p>
             <ul class='ml-5 mt-3 list-disc'>
@@ -173,9 +172,9 @@
               <li>Thumbnail Image of Project: Zoomed in and off-focus</li>
               <li>Link to porfolio-single page</li>
             </ul>
-            <h4 class='mt-3 font-bold'>Hover State</h4>
+            <h4 class='mt-5 font-bold'>Hover State</h4>
             <p>The hover state should take 400ms to transition. The background is a <strong>Brand Primary Orange</strong>, with 16 pixels of padding around all 4 sides. The Client name, and Work name are displayed dead center in the box.</p>
-            <div class='bg-white rounded border-2 border-gray-300 mt-5'>
+            <div class='bg-white rounded border-2 border-gray-300 mt-3'>
               <span class='text-xs mb-5 pl-2 pt-2 block font-bold uppercase text-gray-700 '>Example</span>
               <div class="mt-10 px-5 mb-5 w-full flex flex-row flex-wrap">
                 <div class='w-full lg:w-1/2 text-center lg:pr-5'>
@@ -194,9 +193,9 @@
                 </div>
               </div>
             </div>
-            <h4 class='mt-3 font-bold'>Mobile State</h4>
+            <h4 class='mt-5 font-bold'>Mobile State</h4>
             <p>On Mobile, there is no hover state. To overcome this limitation, the hover state is left on, with a slight opaic change to the background. </p>
-            <div class='bg-white rounded border-2 border-gray-300 mt-5'>
+            <div class='bg-white rounded border-2 border-gray-300 mt-2'>
               <span class='text-xs mb-5 pl-2 pt-2 block font-bold uppercase text-gray-700 '>Example</span>
               <div class="mt-10 px-5 mb-5 w-full flex flex-row flex-wrap">
                 <div class='w-full lg:w-1/2  mx-auto text-center lg:pl-5'>
@@ -211,13 +210,48 @@
               </div>
             </div>
           </article>
-          <article>
-            <h3 class='text-3xl mt-10'>Home Carousel</h3>
+          <article class='mt-12'>
+            <h3 class='text-3xl'>Home Carousel</h3>
             <p>The Home Carousel features the the 4 most prestigious works that SJI has worked on in the last year. </p>
+            <div class='flex flex-wrap pt-5'>
+              <div class='w-1/2 lg:pr-5'>
+                <img src="/img/HomeCarousel.jpg" class='w-full'>
+              </div>
+              <div class='w-1/2 lg:pl-5'>
+                <p class='text-lg'>Each slide in the carousel has the following:</p>
+                <ul class='ml-5 mt-3 list-disc'>
+                  <li><strong>Title:</strong> The title will be pulled form the post and should not include the client name.</li>
+                  <li><strong>Image:</strong> 1500 x 700 Image for the background. The image is pulled in through CSS and centered vertically and horizontally within the slide space. Because of this, areas of the image will no always be visible on narrow monitors.</li>
+                  <li><strong>Cateogories:</strong>List of 2 - 4 Categories in all caps. This information is pulled form  <strong>The Excerpt</strong> box on the portfolio item.</li>
+                </ul>
+              </div>
+            </div>
           </article>
-          <article>
-            <h3 class='text-3xl mt-10'>Client Quote</h3>
+          <article class='mt-12'>
+            <h3 class='text-3xl'>Client Quote</h3>
             <p>Each Portfolio piece ends with a quote from the client. Below is an example of what the quote looks like. Quotes from the client are in a larger font than body font and center aligned. </p>
+            <div class='flex flex-wrap'>
+              <div class='bg-white rounded border-2 border-gray-300 mt-3 lg:w-2/3'>
+              <span class='text-xs mb-5 pl-2 pt-2 block font-bold uppercase text-gray-700 '>Example</span>
+              <div class="mt-10 px-5 mb-5 w-full flex flex-row flex-wrap">
+                <div class='w-full text-center'>
+                  <blockquote class='text-center text-3xl quote relative'>
+                    <p class='italic leading-tight'>The team at SJI were terrific partners throughout the campaign, providing creative insight and technical know-how at every stage. They were responsive, organized, and fun to work with. I look forward to future collaborations!</p>
+                    <span class='inline-block text-primary text-lg'>Claire Quin</span>
+                    <span class='block text-sm text-gray-500 uppercase'>Sr. Print & Digital Producer, PBS Creative Services</span>
+                  </blogquote>
+                </div>
+              </div>
+            </div>
+              <div class="lg:w-1/3 mt-3 lg:pl-5">
+                <p>The quote should be no more than 2 sentances. It should consists of 3 parts:</p>
+                <ul class='ml-5 mt-3 list-disc'>
+                  <li>Quote content</li>
+                  <li>Persons Name</li>
+                  <li>Persons Title</li>
+                </ul>
+              </div>
+            </div>
           </article>
       </section>
     </main>
